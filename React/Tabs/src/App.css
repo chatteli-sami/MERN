@@ -1,0 +1,22 @@
+.tab-headers {
+  display: flex;
+}
+
+.tab-header {
+  padding: 20px 30px;
+  cursor: pointer;
+  background-color: #f1f1f1;
+  border: none;
+  outline: none;
+}
+
+.tab-header.active {
+  background-color: #1f1d1d;
+}
+
+.tab-content {
+  padding: 35px;
+  margin-top: 20px;
+  border: 2px solid black;
+}
+
