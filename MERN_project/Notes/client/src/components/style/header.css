@@ -1,0 +1,9 @@
+ul{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li{
+    margin-left: 50px;
+}

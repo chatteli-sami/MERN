@@ -1,0 +1,19 @@
+
+.main{
+    height: 350px;
+    width: 600px;
+    background-color: #FFE599;
+    border-radius: 10px;
+    border: 3px solid black;
+    text-decoration: black;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    height: 25px;
+    width: 100px;
+}
+
