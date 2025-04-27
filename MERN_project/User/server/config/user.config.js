@@ -1,4 +1,3 @@
-
 import { connect } from "mongoose";
 import dotenv from "dotenv";
 
@@ -12,10 +11,10 @@ async function dbConnect() {
     await connect(MONGODB_URI, {
       dbName: dbName,
     });
-    console.log(`connect successfully to your db ${dbName}`);
-  } catch (err) {
-    console.log(err);
-    throw err;
+    console.log(`you connect successfully to your ${dbName} db `);
+  } catch (error) {
+    console.log(error);
+    throw error;
   }
 }
 
